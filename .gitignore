@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 deploy-files.json
+deploy-source.json
+.mcp-deploy-args.json
+.mcp-deploy-result.json
+tmp-gh.json
 
 # debug
 npm-debug.log*
