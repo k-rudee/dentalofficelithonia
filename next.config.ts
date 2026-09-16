@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.jsdelivr.net",
+        pathname: "/gh/k-rudee/dentalofficelithonia@main/**",
+      },
+    ],
+  },
   async redirects() {
     return [
       { source: "/about-us", destination: "/about", permanent: true },

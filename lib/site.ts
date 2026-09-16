@@ -56,7 +56,8 @@ export const site = {
     "https://www.google.com/maps/place/The+Dental+Office+of+Lithonia/@33.7048194,-84.1103184,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5ad833faa1b67:0xbe8d4909b2a00a61!8m2!3d33.7048194!4d-84.1103184",
   writeReviewUrl:
     "https://search.google.com/local/writereview?placeid=ChIJZxuqP4Ot9YgRYQqgsglJjb4",
-  pdfPath: "/forms/new-patient-paperwork.pdf",
+  pdfPath:
+    "https://cdn.jsdelivr.net/gh/k-rudee/dentalofficelithonia@main/public/forms/new-patient-paperwork.pdf",
   parkingNote:
     "Parking notes: call us and we’ll help you find the office.",
   newPatientChecklist: [

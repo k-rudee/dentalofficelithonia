@@ -36,10 +36,19 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: site.name,
-    images: [{ url: "/images/team-sign.jpg", width: 1290, height: 1247, alt: site.name }],
+    images: [
+      {
+        url: "https://cdn.jsdelivr.net/gh/k-rudee/dentalofficelithonia@main/public/images/team-sign.jpg",
+        width: 1290,
+        height: 1247,
+        alt: site.name,
+      },
+    ],
   },
   twitter: { card: "summary_large_image" },
-  icons: { icon: "/images/favicon-source.jpg" },
+  icons: {
+    icon: "https://cdn.jsdelivr.net/gh/k-rudee/dentalofficelithonia@main/public/images/favicon-source.jpg",
+  },
 };
 
 export default function RootLayout({
